@@ -1,0 +1,40 @@
+.pater { 
+	display: inline-block; 
+	width: 100%; 
+	/*** Sólo a efectos de visualización ***/ 
+	background: #F3F3A1; 
+	margin: 0; 
+} 
+
+
+#left{ 
+	width:50%; 
+	float:left;  
+ 	font-size:15px;
+} 
+
+#right{ 
+	width:50%; 
+	float:right;
+ 	text-align:right;
+ 	font-size:15px;
+}
+
+
+
+#uno{ 
+width:50%; 
+float:left;  
+} 
+
+#dos{ 
+width:50%; 
+ text-align:right;
+}
+
+#dos_aux{ 
+width:500; 
+height:200px; 
+margin-left:500px 
+} 
+
