@@ -1,0 +1,44 @@
+
+<html>
+
+	<head>
+		<title></title>
+	<script src="jquery.mobile-1.1.2.min.js"></script>
+	<script src="jquery.mobile-1.1.2.js"> </script>
+		<script src="barcodescanner.js"></script>
+		<script src="phonegap-app.js"></script>
+		
+		<style>
+			button {
+				font-size: 120%;
+			}
+		</style>
+	</head>
+
+	<body onload="onLoad()">
+
+		<div id="running-bits">
+
+			<button id="scan-button">scan: ?</button>
+
+			<p>(<span id="test-count-current">?</span>
+			/
+			<span id="test-count-total">?</span>)
+
+			<p><img id="image" src="">
+
+			<p>expected text:
+			<br><tt><span id="test-text">?</span></tt>
+
+		</div>
+
+		<p><b id="test-done"></b>
+		<br><button id="start-over">start over</button>
+
+		<p>Results:
+		<ul id="results-list">
+		</ul>
+
+	</body>
+
+</html>
